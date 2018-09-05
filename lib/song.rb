@@ -21,6 +21,10 @@ class Song
     song 
   end
   
+  def self.find_by_name(string)
+    self.all.each do |name|
+      if 
+  
   def self.all
     @@all
   end
