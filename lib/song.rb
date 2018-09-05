@@ -28,7 +28,7 @@ class Song
   def self.find_or_create_by_name(string)
     check = self.find_by_name
     if check == nil 
-      self.create_by_name
+      self.create_by_name(string)
     else 
       check 
     end
