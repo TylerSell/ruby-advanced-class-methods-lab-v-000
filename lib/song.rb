@@ -33,6 +33,8 @@ class Song
       check 
     end
   end
+  
+  def self.alphabetical
       
   def self.all
     @@all
