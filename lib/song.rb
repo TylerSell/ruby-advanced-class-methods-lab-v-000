@@ -28,6 +28,11 @@ class Song
   def self.find_or_create_by_name(string)
     check = self.all.detect {|song| song.name == string}
     if check == nil 
+      song = self.new
+      song.name = string 
+      song.save 
+      song 
+    else 
       
       
   def self.all
