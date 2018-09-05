@@ -29,6 +29,7 @@ class Song
     check = self.all.detect {|song| song.name == string}
     if check == nil 
       
+      
   def self.all
     @@all
   end
