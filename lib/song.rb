@@ -39,7 +39,9 @@ class Song
   end
   
   def self.new_from_filename(string)
+    song = self.new 
     self.split(" - ", ".")
+    song.name = 
       
   def self.all
     @@all
