@@ -25,6 +25,9 @@ class Song
     self.all.detect {|song| song.name == string}
   end
   
+  def self.find_or_create_by_name(string)
+    self.all.detect {|song| song.name == string}
+  
   def self.all
     @@all
   end
