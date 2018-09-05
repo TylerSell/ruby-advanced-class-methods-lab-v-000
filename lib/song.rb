@@ -33,7 +33,9 @@ class Song
       song.save 
       song 
     else 
-      
+      check 
+    end
+  end
       
   def self.all
     @@all
