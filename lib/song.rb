@@ -23,6 +23,7 @@ class Song
   
   def self.find_by_name(string)
     self.all.detect {|song| song.name == string}
+  end
   
   def self.all
     @@all
