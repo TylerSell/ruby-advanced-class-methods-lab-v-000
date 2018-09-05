@@ -18,6 +18,7 @@ class Song
     song = self.new
     song.name = string 
     song.save
+    song 
   end
   
   def self.all
