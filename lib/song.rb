@@ -38,9 +38,9 @@ class Song
     self.all.sort_by {|song| song.name}
   end
   
-  def self.new_from_filename(string)
+  def self.new_from_filename(mp3)
     song = self.new 
-    data = string.split(" - ", ".")
+    data[] = mp3.split(" - ", ".")
     song.name = data[1]
     song.artist_name = data[0]
     song 
