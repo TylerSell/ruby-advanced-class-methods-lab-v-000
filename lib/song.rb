@@ -9,7 +9,8 @@ class Song
   end
   
   def self.new_by_name(string)
-    name = self.new 
+    name = self.new
+    
   
   def self.all
     @@all
